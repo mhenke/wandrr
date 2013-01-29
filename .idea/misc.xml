@@ -339,6 +339,9 @@
       </general>
     </ddl-file-settings>
   </component>
+  <component name="ProjectResources">
+    <default-html-doctype>$APPLICATION_HOME_DIR$/lib/rubymine.jar!/resources/html5-schema/html5.rnc</default-html-doctype>
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="RVM: jruby-1.7.2" project-jdk-type="JRUBY_SDK" />
 </project>
 

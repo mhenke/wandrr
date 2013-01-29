@@ -1,6 +1,7 @@
 Wandrr::Application.routes.draw do
   resources :trips
 
+  root to: 'trip#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
