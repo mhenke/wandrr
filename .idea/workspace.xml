@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31dcebf7-7917-4278-93ae-d9bba352c7e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/mhenke.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/destinations/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/destinations/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/destinations/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/destinations/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/destinations/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/trips/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/trips/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/trips/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/trips/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/trips/show.html.erb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/destinations_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/destinations_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/destination.rb" afterPath="$PROJECT_DIR$/app/models/destination.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/trip.rb" afterPath="$PROJECT_DIR$/app/models/trip.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/destinations/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/destinations/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/destinations/index.html.haml" afterPath="$PROJECT_DIR$/app/views/destinations/index.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/destinations/show.html.haml" afterPath="$PROJECT_DIR$/app/views/destinations/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trips/show.html.haml" afterPath="$PROJECT_DIR$/app/views/trips/show.html.haml" />
     </list>
     <ignored path="wandrr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,10 +22,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/trips/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="11" selection-start="299" selection-end="299" vertical-scroll-proportion="0.41452992">
+            <state line="16" column="11" selection-start="299" selection-end="299" vertical-scroll-proportion="-4.0416665">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="destinations_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/destinations_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="88" selection-start="1862" selection-end="1862" vertical-scroll-proportion="0.5020408">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/destinations/show.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="8" selection-start="191" selection-end="191" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -71,11 +71,11 @@
         <option value="$PROJECT_DIR$/app/views/trips/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/destinations/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/destinations/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/destinations_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/trip.rb" />
         <option value="$PROJECT_DIR$/app/models/destination.rb" />
-        <option value="$PROJECT_DIR$/app/views/destinations/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/trips/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/destinations/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/destinations_controller.rb" />
       </list>
     </option>
   </component>
@@ -703,23 +703,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/destinations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="39" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/trip.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="24" selection-start="95" selection-end="95" vertical-scroll-proportion="0.1744186">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/destination.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -734,13 +720,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/destinations/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="22" selection-start="199" selection-end="199" vertical-scroll-proportion="0.7746479">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/destinations/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -768,7 +747,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/trips/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="299" selection-end="299" vertical-scroll-proportion="0.41452992">
+        <state line="16" column="11" selection-start="299" selection-end="299" vertical-scroll-proportion="-4.0416665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/destination.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="3" selection-start="81" selection-end="81" vertical-scroll-proportion="0.1744186">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/destinations/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="191" selection-end="191" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/destinations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="88" selection-start="1862" selection-end="1862" vertical-scroll-proportion="0.5020408">
           <folding />
         </state>
       </provider>
