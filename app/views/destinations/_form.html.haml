@@ -1,4 +1,4 @@
-= form_for(@destination) do |f|
+= form_for [@trip, @destination] do |f|
   - if @destination.errors.any?
     #error_explanation
       %h2
