@@ -6,7 +6,7 @@ Wandrr::Application.routes.draw do
     resources :destinations
   end
 
-  root to: 'trip#index'
+  root to: 'trips#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

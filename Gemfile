@@ -7,8 +7,18 @@ gem 'trinidad'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'activerecord-jdbcpostgresql-adapter'
-
+gem 'haml' # you probably have already done this
 gem 'jruby-openssl'
+gem 'trinidad'
+
+ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.2'
+
+#./Gemfile
+group :development do
+  gem 'ruby_parser'
+  gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
+  gem 'hpricot'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.

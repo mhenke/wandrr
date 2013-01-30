@@ -37,12 +37,16 @@
     <orderEntry type="library" scope="PROVIDED" name="commonjs (v0.2.6, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: jruby-1.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="haml (v3.1.7, RVM: jruby-1.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="haml-rails (v0.3.5, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.1, RVM: jruby-1.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hpricot (v0.8.6, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.1, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jdbc-postgres (v9.2.1002.1, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="journey (v1.0.4, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v2.2.0, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jruby-openssl (v0.8.2, RVM: jruby-1.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jruby-rack (v1.1.13.1, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.7.6, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="less (v2.2.2, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="less-rails (v2.2.6, RVM: jruby-1.7.2) [gem]" level="application" />
@@ -50,7 +54,6 @@
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.19, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.5.0, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: jruby-1.7.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="puma (v1.6.3, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.4, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-ssl (v1.3.2, RVM: jruby-1.7.2) [gem]" level="application" />
@@ -59,14 +62,18 @@
     <orderEntry type="library" scope="PROVIDED" name="railties (v3.2.11, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.0.3, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12, RVM: jruby-1.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby_parser (v3.1.1, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.5, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.6, RVM: jruby-1.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sexp_processor (v4.1.4, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.2.2, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="therubyrhino (v2.0.2, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="therubyrhino_jar (v1.7.4, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.17.0, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.3.3, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.12, RVM: jruby-1.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="trinidad (v1.4.4, RVM: jruby-1.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="trinidad_jars (v1.2.0, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="twitter-bootstrap-rails (v2.2.0, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.35, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v1.3.0, RVM: jruby-1.7.2) [gem]" level="application" />
