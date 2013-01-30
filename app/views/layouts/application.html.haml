@@ -33,12 +33,11 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.brand{:href => "#"} Wandrr
+          %a.brand{:href => "/"} Wandrr
           .container.nav-collapse
             %ul.nav
-              %li= link_to "Link1", "/path1"
-              %li= link_to "Link2", "/path2"
-              %li= link_to "Link3", "/path3"
+              %li= link_to "Trips", trips_path
+              %li= link_to "Destinations", destinations_path
           / /.nav-collapse
     .container
       .row
@@ -46,18 +45,11 @@
           = bootstrap_flash
           = yield
         .span3
-          .well.sidebar-nav
-            %h3 Sidebar
-            %ul.nav.nav-list
-              %li.nav-header Sidebar
-              %li= link_to "Link1", "/path1"
-              %li= link_to "Link2", "/path2"
-              %li= link_to "Link3", "/path3"
-          / /.well
+
         / /span
       / /row
       %footer
-        %p &copy; Company 2012
+        %p &copy; CodeSchool 2012
     / /container
     /
       Javascripts
