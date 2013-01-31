@@ -1,4 +1,6 @@
 Wandrr::Application.routes.draw do
+  resources :activities
+
   resources :destinations, only: :index do
     resources :activities
   end
