@@ -4,6 +4,17 @@
 %p
   %b Description:
   = @destination.description
+%p
+  = link_to 'New Activity', new_destination_activity_path(@destination)
+%table.table
+  %tr
+    %th Activity
+    %th Description
+    %th
+    - @destination.activities.each do |activity|
+      %tr
+        %td= link_to activity.name, destination_activity_path(@trip, activity)
+        %td= activity.description
+        %td= link_to 'edit', edit_destination_activity_path(@trip, activity)
 = link_to 'Edit', edit_trip_destination_path(@trip, @destination)
-|
 \#{link_to 'Back', trip_path(@trip)}
