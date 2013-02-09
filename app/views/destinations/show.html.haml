@@ -8,14 +8,15 @@
   = link_to 'Edit', edit_trip_destination_path(@trip, @destination)
   \#{link_to 'Back', trip_path(@trip)}
 %table.table.table-striped
-  %tr
-    %th Activity
-    %th Description
-    %th
+  %thead
+    %tr
+      %th Activity
+      %th Description
+      %th
     - @destination.activities.each do |activity|
       %tr
         %td= link_to activity.name, destination_activity_path(@trip, activity)
         %td= activity.description
         %td= link_to 'edit', edit_destination_activity_path(@trip, activity)
 %p
-  = link_to 'New Activity', new_destination_activity_path(@destination)
+  = link_to 'New Activity', new_destination_activity_path(@destination), class: 'btn btn-link'

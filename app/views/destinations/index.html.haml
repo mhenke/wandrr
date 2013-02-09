@@ -1,16 +1,15 @@
 %h1 Listing destinations
-%table.table
-  %tr
-    %th Name
-    %th Description
-    %th
-    %th
-    %th
+%table.table.table-striped
+  %thead
+    %tr
+      %th Name
+      %th Description
+      %th
+      %th
   - @destinations.each do |destination|
     %tr
-      %td= destination.name
+      %td= link_to destination.name, destination
       %td= destination.description
-      %td= link_to 'Show', destination
       %td= link_to 'Edit', edit_destination_path(destination)
       %td= link_to 'Destroy', destination, method: :delete, data: { confirm: 'Are you sure?' }
 %br/
