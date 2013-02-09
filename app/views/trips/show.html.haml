@@ -7,7 +7,7 @@
 %p
   = link_to 'Edit', edit_trip_path(@trip) |
   \#{link_to 'Back', trips_path}
-%table.table.table-striped
+%table.table.table-striped.table-hover
   %thead
     %tr
       %th Destination
@@ -15,7 +15,7 @@
       %th
   - @trip.destinations.each do |destination|
     %tr
-      %td= link_to destination.name, trip_destination_path(@trip, destination)
+      %td= lFtrip_destination_path(@trip, destination)
       %td= destination.description
       %td= link_to 'edit', edit_trip_destination_path(@trip, destination)
 %p

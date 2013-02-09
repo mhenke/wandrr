@@ -4,13 +4,15 @@
     %tr
       %th Name
       %th Description
+      %th Trip ID
       %th
       %th
   - @destinations.each do |destination|
     %tr
       %td= link_to destination.name, destination
       %td= destination.description
-      %td= link_to 'Edit', edit_destination_path(destination)
-      %td= link_to 'Destroy', destination, method: :delete, data: { confirm: 'Are you sure?' }
+      %td= destination.trip_id
+      %td edit
+      %td delete
 %br/
-= link_to 'New Destination', new_destination_path
+
