@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31dcebf7-7917-4278-93ae-d9bba352c7e6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/destinations/index.html.haml" afterPath="$PROJECT_DIR$/app/views/destinations/index.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trips/show.html.haml" afterPath="$PROJECT_DIR$/app/views/trips/show.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -14,7 +13,7 @@
     <file path="/application.html.haml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360444958888" ignored="false" />
     <file path="/show.html.haml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360449174268" ignored="false" />
     <file path="/index.html.haml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360449252228" ignored="false" />
-    <file path="/destinations_controller.rb" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360449332808" ignored="false" />
+    <file path="/destinations_controller.rb" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360449600687" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/trips/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="-10.375">
+            <state line="17" column="12" selection-start="327" selection-end="352" vertical-scroll-proportion="0.63846153">
               <folding />
             </state>
           </provider>
@@ -76,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/destinations/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="14" selection-start="317" selection-end="321" vertical-scroll-proportion="0.53846157">
+            <state line="14" column="14" selection-start="317" selection-end="321" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
@@ -113,10 +112,10 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/destinations/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/trips/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/trips/show.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/trips_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/destinations_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/destinations/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/destinations_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/trips/show.html.haml" />
       </list>
     </option>
   </component>
@@ -695,7 +694,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1442" height="877" extended-state="7" />
+    <frame x="-1" y="24" width="1442" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -861,16 +860,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/trips/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/trips_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="328" selection-end="328" vertical-scroll-proportion="-10.375">
+        <state line="15" column="4" selection-start="289" selection-end="319" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/trips_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/destinations/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="289" selection-end="319" vertical-scroll-proportion="0.0">
+        <state line="14" column="14" selection-start="317" selection-end="321" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
@@ -882,9 +881,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/destinations/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/trips/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="317" selection-end="321" vertical-scroll-proportion="0.53846157">
+        <state line="17" column="12" selection-start="327" selection-end="352" vertical-scroll-proportion="0.63846153">
           <folding />
         </state>
       </provider>

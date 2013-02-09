@@ -15,7 +15,7 @@
       %th
   - @trip.destinations.each do |destination|
     %tr
-      %td= lFtrip_destination_path(@trip, destination)
+      %td= link_to destination.name, trip_destination_path(@trip, destination)
       %td= destination.description
       %td= link_to 'edit', edit_trip_destination_path(@trip, destination)
 %p
