@@ -1,17 +1,15 @@
 %h1 Listing trips
-%table.table
-  %tr
-    %th Name
-    %th Description
-    %th
-    %th
-    %th
+= link_to 'New Trip', new_trip_path, class: 'btn btn-link'
+%table.table.table-striped
+  %thead
+    %tr
+      %th Name
+      %th Description
+      %th
+      %th
   - @trips.each do |trip|
     %tr
-      %td= trip.name
+      %td= link_to trip.name, trip
       %td= trip.description
-      %td= link_to 'Show', trip
-      %td= link_to 'Edit', edit_trip_path(trip)
-      %td= link_to 'Destroy', trip, method: :delete, data: { confirm: 'Are you sure?' }
-%br/
-= link_to 'New Trip', new_trip_path
+      %td= link_to 'Edit', edit_trip_path(trip), class: 'btn'
+      %td= link_to 'Destroy', trip, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger'

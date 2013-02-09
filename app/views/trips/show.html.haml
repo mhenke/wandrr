@@ -5,8 +5,9 @@
   %b Description:
   = @trip.description
 %p
-  = link_to 'New Destination', new_trip_destination_path(@trip)
-%table.table
+  = link_to 'Edit', edit_trip_path(@trip) |
+  \#{link_to 'Back', trips_path}
+%table.table.table-striped
   %tr
     %th Destination
     %th Description
@@ -16,5 +17,5 @@
       %td= link_to destination.name, trip_destination_path(@trip, destination)
       %td= destination.description
       %td= link_to 'edit', edit_trip_destination_path(@trip, destination)
-= link_to 'Edit', edit_trip_path(@trip) |
-\#{link_to 'Back', trips_path}
+%p
+  = link_to 'New Destination', new_trip_destination_path(@trip)
