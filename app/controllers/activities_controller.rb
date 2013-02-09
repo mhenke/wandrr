@@ -13,6 +13,7 @@ class ActivitiesController < ApplicationController
   # GET /activities/1
   # GET /activities/1.json
   def show
+    @destination = Destination.find(params[:destination_id])
     @activity = Activity.find(params[:id])
 
     respond_to do |format|
@@ -24,6 +25,7 @@ class ActivitiesController < ApplicationController
   # GET /activities/new
   # GET /activities/new.json
   def new
+    @destination = Destination.find(params[:destination_id])
     @activity = Activity.new
 
     respond_to do |format|
@@ -34,13 +36,15 @@ class ActivitiesController < ApplicationController
 
   # GET /activities/1/edit
   def edit
+    @destination = Destination.find(params[:destination_id])
     @activity = Activity.find(params[:id])
   end
 
   # POST /activities
   # POST /activities.json
   def create
-    @activity = Activity.new(params[:activity])
+    @destination = Destination.find(params[:destination_id])
+    @activity = @destination.activities.new(params[:activity])
 
     respond_to do |format|
       if @activity.save
@@ -57,6 +61,7 @@ class ActivitiesController < ApplicationController
   # PUT /activities/1.json
   def update
     @activity = Activity.find(params[:id])
+    @destination = @activity.destination
 
     respond_to do |format|
       if @activity.update_attributes(params[:activity])
