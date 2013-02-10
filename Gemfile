@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
-gem 'trinidad'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -10,6 +9,7 @@ gem 'activerecord-jdbcpostgresql-adapter'
 gem 'haml' # you probably have already done this
 gem 'jruby-openssl'
 gem 'trinidad'
+gem 'devise'
 
 ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.2'
 
