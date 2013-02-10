@@ -10,6 +10,7 @@ gem 'haml' # you probably have already done this
 gem 'jruby-openssl'
 gem 'trinidad'
 gem 'devise'
+gem 'twitter-bootstrap-rails'
 
 ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.2'
 
@@ -26,7 +27,6 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'less-rails'
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'twitter-bootstrap-rails'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyrhino'
 
