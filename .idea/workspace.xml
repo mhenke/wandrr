@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31dcebf7-7917-4278-93ae-d9bba352c7e6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-    </list>
+    <list default="true" id="31dcebf7-7917-4278-93ae-d9bba352c7e6" name="Default" comment="" />
     <ignored path="wandrr.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360463799297" ignored="false" />
@@ -16,6 +14,9 @@
     <file path="/edit.html.haml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360451009944" ignored="false" />
     <file path="/activities_controller.rb" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360451215968" ignored="false" />
     <file path="/_form.html.haml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360457834919" ignored="false" />
+    <file path="$USER_HOME$/.xbmc/userdata/profiles.xml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360466291746" ignored="false" />
+    <file path="$USER_HOME$/.xbmc/userdata/guisettings.xml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360466291747" ignored="false" />
+    <file path="/user.rb" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360466341793" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +33,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="70" selection-start="2088" selection-end="2088" vertical-scroll-proportion="0.14211439">
+            <state line="36" column="70" selection-start="2088" selection-end="2088" vertical-scroll-proportion="-3.4166667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="41" selection-start="522" selection-end="522" vertical-scroll-proportion="0.26872963">
               <folding />
             </state>
           </provider>
@@ -59,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/activities/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/activities/index.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/trips_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/destinations/index.html.haml" />
@@ -75,6 +84,7 @@
         <option value="$PROJECT_DIR$/app/views/destinations/show.html.haml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -86,8 +96,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="288" />
-    <option name="y" value="105" />
+    <option name="x" value="436" />
+    <option name="y" value="52" />
     <option name="width" value="1104" />
     <option name="height" value="769" />
   </component>
@@ -194,6 +204,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wandrr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wandrr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -574,7 +602,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="288" y="105" width="1104" height="769" extended-state="0" />
+    <frame x="436" y="52" width="1104" height="769" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -656,11 +684,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/destinations/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="317" selection-end="321" vertical-scroll-proportion="0.53846157" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/destinations_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="88" selection-start="1838" selection-end="1892" vertical-scroll-proportion="0.76086956">
@@ -749,7 +772,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="70" selection-start="2088" selection-end="2088" vertical-scroll-proportion="0.14211439">
+        <state line="36" column="70" selection-start="2088" selection-end="2088" vertical-scroll-proportion="-3.4166667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="41" selection-start="522" selection-end="522" vertical-scroll-proportion="0.26872963">
           <folding />
         </state>
       </provider>
