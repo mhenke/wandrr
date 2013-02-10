@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31dcebf7-7917-4278-93ae-d9bba352c7e6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trips/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/trips/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trips/index.html.haml" afterPath="$PROJECT_DIR$/app/views/trips/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
     </list>
     <ignored path="wandrr.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360440418676" ignored="false" />
     <file path="$USER_HOME$/.xbmc/addons/script.module.urlresolver/resources/settings.xml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360442067737" ignored="false" />
     <file path="$USER_HOME$/.xbmc/addons/plugin.video.hulu/resources/cache/ad.xml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360448388300" ignored="false" />
-    <file path="/application.html.haml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360444958888" ignored="false" />
+    <file path="/application.html.haml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360461088414" ignored="false" />
     <file path="/show.html.haml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360450924686" ignored="false" />
     <file path="/index.html.haml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360458697712" ignored="false" />
     <file path="/destinations_controller.rb" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360449600687" ignored="false" />
@@ -42,10 +41,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/trips/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="44" selection-start="384" selection-end="384" vertical-scroll-proportion="0.5706522">
+            <state line="14" column="44" selection-start="384" selection-end="384" vertical-scroll-proportion="-8.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="53" selection-start="2484" selection-end="2484" vertical-scroll-proportion="0.57746476">
               <folding />
             </state>
           </provider>
@@ -110,7 +118,6 @@
         <option value="$PROJECT_DIR$/app/views/activities/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/destinations/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/activities/_form.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/trips_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/destinations/index.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/destinations_controller.rb" />
@@ -121,6 +128,7 @@
         <option value="$PROJECT_DIR$/app/controllers/activities_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/trips/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/trips/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       </list>
     </option>
   </component>
@@ -799,13 +807,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/trips_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="289" selection-end="319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/trips/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="12" selection-start="327" selection-end="352" vertical-scroll-proportion="-10.375">
@@ -906,7 +907,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/trips/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="44" selection-start="384" selection-end="384" vertical-scroll-proportion="0.5706522">
+        <state line="14" column="44" selection-start="384" selection-end="384" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="53" selection-start="2484" selection-end="2484" vertical-scroll-proportion="0.57746476">
           <folding />
         </state>
       </provider>
