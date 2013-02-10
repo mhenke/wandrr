@@ -36,6 +36,12 @@
           %a.brand{:href => "/"} Wandrr
           .container.nav-collapse
             %ul.nav
+              - if user_signed_in?
+                %li= link_to current_user.email, edit_user_registration_path
+                %li= link_to "Log Out", destroy_user_session_path, method: :delete
+              - else
+                %li= link_to "Sign Up", new_user_registration_path
+                %li= link_to "Log In", new_user_session_path
               %li= link_to "Trips", trips_path
               %li= link_to "Destinations", destinations_path
               %li= link_to "Activity", activities_path
