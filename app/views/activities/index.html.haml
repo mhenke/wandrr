@@ -16,7 +16,5 @@
       - if user_signed_in? && current_user == @trip.user
         %td= link_to 'Edit', edit_activity_path(activity)
         %td= link_to 'Destroy', activity, method: :delete, data: { confirm: 'Are you sure?' }
-
 %br
-
 = link_to 'New Activity', new_activity_path

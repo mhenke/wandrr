@@ -17,7 +17,8 @@
     %tr
       %td= link_to activity.name, destination_activity_path(@destination, activity)
       %td= activity.description
-      - if user_signed_in? && current_user == @trip.user
-        %td= link_to glyph(:edit), edit_destination_activity_path(@destination, activity), class:'btn'
+      %td
+        - if user_signed_in? && current_user == @trip.user
+          = link_to glyph(:edit), edit_destination_activity_path(@destination, activity), class:'btn'
 %p
   = link_to 'New Activity', new_destination_activity_path(@destination), class: 'btn btn-link'

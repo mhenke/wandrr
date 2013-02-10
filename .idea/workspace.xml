@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31dcebf7-7917-4278-93ae-d9bba352c7e6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trips/index.html.haml" afterPath="$PROJECT_DIR$/app/views/trips/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/trips_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/trips_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/activities/index.html.haml" afterPath="$PROJECT_DIR$/app/views/activities/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/destinations/show.html.haml" afterPath="$PROJECT_DIR$/app/views/destinations/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trips/show.html.haml" afterPath="$PROJECT_DIR$/app/views/trips/show.html.haml" />
     </list>
     <ignored path="wandrr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,10 +40,46 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/trips/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="8" selection-start="341" selection-end="341" vertical-scroll-proportion="0.65625">
+            <state line="14" column="8" selection-start="341" selection-end="341" vertical-scroll-proportion="-8.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/destinations/show.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="58" selection-start="530" selection-end="530" vertical-scroll-proportion="-9.333333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/activities/show.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="7" selection-start="80" selection-end="80" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/activities/index.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="6" selection-start="456" selection-end="456" vertical-scroll-proportion="0.647651">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/trips/show.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="8" selection-start="447" selection-end="447" vertical-scroll-proportion="-8.708333">
               <folding />
             </state>
           </provider>
@@ -77,11 +114,11 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/trip.rb" />
-        <option value="$PROJECT_DIR$/app/views/destinations/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/trips/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/activities/index.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/trips_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/trips/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/trips/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/destinations/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/activities/index.html.haml" />
       </list>
     </option>
   </component>
@@ -201,6 +238,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wandrr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wandrr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="destinations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wandrr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wandrr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -738,30 +819,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/destinations/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/trips_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="468" selection-end="518" vertical-scroll-proportion="-7.7083335">
+        <state line="38" column="46" selection-start="808" selection-end="808" vertical-scroll-proportion="0.16459627">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/trips/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="494" selection-end="494" vertical-scroll-proportion="-8.416667">
+        <state line="20" column="8" selection-start="447" selection-end="447" vertical-scroll-proportion="-8.708333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/activities/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/trips/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="80" selection-end="80" vertical-scroll-proportion="0.27027026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/activities/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="56" selection-start="293" selection-end="293" vertical-scroll-proportion="0.390625">
+        <state line="14" column="8" selection-start="341" selection-end="341" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
@@ -773,16 +847,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/trips_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/destinations/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="46" selection-start="808" selection-end="808" vertical-scroll-proportion="0.16459627">
+        <state line="20" column="58" selection-start="530" selection-end="530" vertical-scroll-proportion="-9.333333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/trips/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/activities/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="341" selection-end="341" vertical-scroll-proportion="0.65625">
+        <state line="6" column="7" selection-start="80" selection-end="80" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/activities/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="6" selection-start="456" selection-end="456" vertical-scroll-proportion="0.647651">
           <folding />
         </state>
       </provider>
