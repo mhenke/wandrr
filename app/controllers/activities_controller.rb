@@ -1,4 +1,7 @@
 class ActivitiesController < ApplicationController
+
+  before_filter :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
+  before_filter :owns_trip, only: [:edit, :update, :destroy]
   # GET /activities
   # GET /activities.json
   def index
