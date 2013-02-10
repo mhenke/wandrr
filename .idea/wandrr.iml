@@ -28,6 +28,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activeresource (v3.2.11, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.2.11, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v3.0.2, RVM: jruby-1.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt-ruby (v3.0.1, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bouncy-castle-java (v1.5.0146.1, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.4, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.0.pre.7, RVM: jruby-1.7.2) [gem]" level="application" />
@@ -35,6 +36,7 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.4.0, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="commonjs (v0.2.6, RVM: jruby-1.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="devise (v2.2.3, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml (v3.1.7, RVM: jruby-1.7.2) [gem]" level="application" />
@@ -53,6 +55,7 @@
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.4.4, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.21, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.5.0, RVM: jruby-1.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.4.0, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.5, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, RVM: jruby-1.7.2) [gem]" level="application" />
@@ -77,6 +80,7 @@
     <orderEntry type="library" scope="PROVIDED" name="twitter-bootstrap-rails (v2.2.1, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.35, RVM: jruby-1.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v1.3.0, RVM: jruby-1.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.1, RVM: jruby-1.7.2) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
