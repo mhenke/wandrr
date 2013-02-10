@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31dcebf7-7917-4278-93ae-d9bba352c7e6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-    </list>
+    <list default="true" id="31dcebf7-7917-4278-93ae-d9bba352c7e6" name="Default" comment="" />
     <ignored path="wandrr.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360520022318" ignored="false" />
@@ -86,7 +84,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="47" selection-start="376" selection-end="376" vertical-scroll-proportion="0.29467085">
+            <state line="26" column="1" selection-start="642" selection-end="659" vertical-scroll-proportion="0.52978057">
               <folding />
             </state>
           </provider>
@@ -754,7 +752,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="376" selection-end="376" vertical-scroll-proportion="0.29467085">
+        <state line="26" column="1" selection-start="642" selection-end="659" vertical-scroll-proportion="0.52978057">
           <folding />
         </state>
       </provider>
