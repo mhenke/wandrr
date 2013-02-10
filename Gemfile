@@ -10,12 +10,13 @@ gem 'haml' # you probably have already done this
 gem 'jruby-openssl'
 gem 'trinidad'
 gem 'devise'
-gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
+
 ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.2'
 
 #./Gemfile
 group :development do
   gem 'ruby_parser'
+  gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
   gem 'hpricot'
 end
 
@@ -28,6 +29,7 @@ group :assets do
   gem 'twitter-bootstrap-rails'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyrhino'
+
   gem 'uglifier', '>= 1.0.3'
 end
 

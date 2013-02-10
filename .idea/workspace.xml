@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31dcebf7-7917-4278-93ae-d9bba352c7e6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wandrr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,7 +86,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="10" selection-start="438" selection-end="438" vertical-scroll-proportion="0.3181818">
+            <state line="16" column="47" selection-start="376" selection-end="376" vertical-scroll-proportion="0.29467085">
               <folding />
             </state>
           </provider>
@@ -755,7 +754,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="438" selection-end="438" vertical-scroll-proportion="0.3181818">
+        <state line="16" column="47" selection-start="376" selection-end="376" vertical-scroll-proportion="0.29467085">
           <folding />
         </state>
       </provider>
