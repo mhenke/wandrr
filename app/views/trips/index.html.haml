@@ -6,10 +6,10 @@
       %th Name
       %th Description
       %th
-      %th
   - @trips.each do |trip|
     %tr
       %td= link_to trip.name, trip
       %td= trip.description
-      %td= link_to 'Edit', edit_trip_path(trip)
-      %td= link_to 'Destroy', trip, method: :delete, data: { confirm: 'Are you sure?' }
+      %td
+        =link_to glyph(:edit), edit_trip_path(trip), class:'btn'
+        = link_to raw('<i class="icon-remove icon-white"></i> Destroy'), trip, method: :delete, data: { confirm: 'Are you sure?' }, class:'btn'
