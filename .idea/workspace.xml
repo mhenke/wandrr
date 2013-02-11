@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31dcebf7-7917-4278-93ae-d9bba352c7e6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.haml" />
-    </list>
+    <list default="true" id="31dcebf7-7917-4278-93ae-d9bba352c7e6" name="Default" comment="" />
     <ignored path="wandrr.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360545654906" ignored="false" />
-    <file path="$USER_HOME$/.xbmc/addons/script.module.urlresolver/resources/settings.xml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360546737764" ignored="false" />
+    <file path="$USER_HOME$/.xbmc/addons/script.module.urlresolver/resources/settings.xml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360553531671" ignored="false" />
     <file path="$USER_HOME$/.xbmc/addons/plugin.video.hulu/resources/cache/ad.xml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360448388300" ignored="false" />
     <file path="/application.html.haml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360465794714" ignored="false" />
     <file path="/show.html.haml" changelist="31dcebf7-7917-4278-93ae-d9bba352c7e6" time="1360469439720" ignored="false" />
