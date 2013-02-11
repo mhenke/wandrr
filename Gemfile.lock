@@ -33,6 +33,7 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     arel (3.0.2)
+    bcrypt-ruby (3.0.1)
     bcrypt-ruby (3.0.1-java)
     bouncy-castle-java (1.5.0146.1)
     builder (3.0.4)
@@ -59,6 +60,7 @@ GEM
       haml (~> 3.1)
       railties (>= 3.1, < 4.1)
     hike (1.2.1)
+    hpricot (0.8.6)
     hpricot (0.8.6-java)
     i18n (0.6.1)
     jdbc-postgres (9.2.1002.1)
@@ -69,6 +71,7 @@ GEM
     jruby-openssl (0.8.2)
       bouncy-castle-java (>= 1.5.0146.1)
     jruby-rack (1.1.13.1)
+    json (1.7.6)
     json (1.7.6-java)
     less (2.2.2)
       commonjs (~> 0.2.6)
@@ -82,6 +85,8 @@ GEM
     mime-types (1.21)
     multi_json (1.5.0)
     orm_adapter (0.4.0)
+    polyamorous (0.5.0)
+      activerecord (~> 3.0)
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -106,6 +111,10 @@ GEM
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
     rake (10.0.3)
+    ransack (0.7.3)
+      actionpack (~> 3.0)
+      activerecord (~> 3.0)
+      polyamorous (~> 0.5.0)
     rdoc (3.12.1)
       json (~> 1.4)
     ruby_parser (3.1.1)
@@ -158,6 +167,7 @@ DEPENDENCIES
   jruby-openssl
   less-rails
   rails (= 3.2.11)
+  ransack
   ruby_parser
   sass-rails (~> 3.2.3)
   therubyrhino
