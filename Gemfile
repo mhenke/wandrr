@@ -12,7 +12,7 @@ gem 'trinidad'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'less-rails'
-gem 'ransack'
+gem "ransack", :git => "git://github.com/ernie/ransack.git" # Track git repo
 gem 'jquery-rails'
 gem 'omniauth-twitter'
 gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
