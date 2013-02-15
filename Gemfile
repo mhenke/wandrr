@@ -24,7 +24,7 @@ group :development do
   gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
   gem 'hpricot'
   gem 'better_errors'
-  gem 'binding_of_caller'
+  # gem 'binding_of_caller'
 end
 
 # Gems used only for assets and not required
