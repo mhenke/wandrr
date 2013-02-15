@@ -15,13 +15,14 @@ gem 'less-rails'
 gem 'ransack'
 gem 'jquery-rails'
 gem 'omniauth-twitter'
+gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
 
 ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.2'
 
 #./Gemfile
 group :development do
   gem 'ruby_parser'
-  gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
+  
   gem 'hpricot'
   gem 'better_errors'
   # gem 'binding_of_caller'
