@@ -13,6 +13,8 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'less-rails'
 gem 'ransack'
+gem 'jquery-rails'
+gem 'omniauth-twitter'
 
 ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.2'
 
@@ -22,7 +24,7 @@ group :development do
   gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
   gem 'hpricot'
   gem 'better_errors'
-  # gem 'binding_of_caller'
+# gem 'binding_of_caller'
 end
 
 # Gems used only for assets and not required
@@ -34,8 +36,6 @@ group :assets do
   gem 'therubyrhino'
   gem 'uglifier', '>= 1.0.3'
 end
-
-gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -51,4 +51,3 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-gem 'omniauth-twitter'
