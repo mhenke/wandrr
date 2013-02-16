@@ -50,6 +50,7 @@ class TripsController < ApplicationController
 
     respond_to do |format|
       if @trip.save
+        @trips = Trip.all
         format.html { redirect_to @trip, notice: 'Trip was successfully created.' }
         format.json { render json: @trip, status: :created, location: @trip }
         format.js
