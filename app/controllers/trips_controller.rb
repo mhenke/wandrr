@@ -40,6 +40,11 @@ class TripsController < ApplicationController
   # GET /trips/1/edit
   def edit
     @trip = Trip.find(params[:id])
+
+    respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
   # POST /trips
@@ -71,9 +76,11 @@ class TripsController < ApplicationController
       if @trip.update_attributes(params[:trip])
         format.html { redirect_to @trip, notice: 'Trip was successfully updated.' }
         format.json { head :no_content }
+        format.js
       else
         format.html { render action: "edit" }
         format.json { render json: @trip.errors, status: :unprocessable_entity }
+        format.js
       end
     end
   end

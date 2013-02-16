@@ -10,5 +10,5 @@
       %td= trip.description
       %td
         - if user_signed_in? && current_user == trip.user
-          =link_to glyph(:edit), edit_trip_path(trip), class:'btn'
+          =link_to glyph(:edit), edit_trip_path(trip), class:'btn', remote: true
           = link_to raw('<i class="icon-remove icon-white"></i> Destroy'), trip, method: :delete, data: { confirm: 'Are you sure?' }, class:'btn', remote: true
