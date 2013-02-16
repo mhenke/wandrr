@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/arunagw/omniauth-twitter.git
+  revision: fb54d53fea223e384bc42213b6175f470bba1332
+  specs:
+    omniauth-twitter (0.0.14)
+      multi_json (~> 1.3)
+      omniauth-oauth (~> 1.0)
+
+GIT
   remote: git://github.com/ernie/ransack.git
   revision: faf299429ea2965d4419d59fc33ad0ed07909340
   specs:
@@ -42,7 +50,6 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     arel (3.0.2)
-    bcrypt-ruby (3.0.1)
     bcrypt-ruby (3.0.1-java)
     better_errors (0.6.0)
       coderay (>= 1.0.0)
@@ -77,7 +84,6 @@ GEM
       railties (>= 3.1, < 4.1)
     hashie (1.2.0)
     hike (1.2.1)
-    hpricot (0.8.6)
     hpricot (0.8.6-java)
     i18n (0.6.1)
     jdbc-postgres (9.2.1002.1)
@@ -88,7 +94,6 @@ GEM
     jruby-openssl (0.8.2)
       bouncy-castle-java (>= 1.5.0146.1)
     jruby-rack (1.1.13.1)
-    json (1.7.7)
     json (1.7.7-java)
     less (2.2.2)
       commonjs (~> 0.2.6)
@@ -108,9 +113,6 @@ GEM
     omniauth-oauth (1.0.1)
       oauth
       omniauth (~> 1.0)
-    omniauth-twitter (0.0.14)
-      multi_json (~> 1.3)
-      omniauth-oauth (~> 1.0)
     orm_adapter (0.4.0)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
@@ -191,7 +193,7 @@ DEPENDENCIES
   jquery-rails
   jruby-openssl
   less-rails
-  omniauth-twitter
+  omniauth-twitter!
   rails (= 3.2.11)
   ransack!
   ruby_parser
