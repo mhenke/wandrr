@@ -66,6 +66,8 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    figaro (0.5.3)
+      rails (~> 3.0)
     haml (4.0.0)
       tilt
     haml-rails (0.4)
@@ -182,6 +184,7 @@ DEPENDENCIES
   better_errors
   coffee-rails (~> 3.2.1)
   devise
+  figaro
   haml
   haml-rails
   hpricot
