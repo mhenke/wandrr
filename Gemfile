@@ -9,7 +9,7 @@ gem 'activerecord-jdbcpostgresql-adapter'
 gem 'haml' # you probably have already done this
 gem 'jruby-openssl'
 gem 'trinidad'
-gem 'devise'
+gem 'devise', :github => 'plataformatec/devise' 
 gem 'twitter-bootstrap-rails'
 gem 'less-rails'
 gem "ransack", :git => "git://github.com/ernie/ransack.git" # Track git repo
