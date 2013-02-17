@@ -16,6 +16,13 @@ GIT
       polyamorous (~> 0.5.0)
 
 GIT
+  remote: git://github.com/laserlemon/figaro.git
+  revision: ac6c06ffc289c9a934c345373d95be4649ea335d
+  specs:
+    figaro (0.5.3)
+      rails (~> 3.0)
+
+GIT
   remote: git://github.com/plataformatec/devise.git
   revision: 22897150d89a941f9185c749e073a64621bbedf2
   specs:
@@ -78,8 +85,6 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    figaro (0.5.3)
-      rails (~> 3.0)
     haml (4.0.0)
       tilt
     haml-rails (0.4)
@@ -191,7 +196,7 @@ DEPENDENCIES
   better_errors
   coffee-rails (~> 3.2.1)
   devise!
-  figaro
+  figaro!
   haml
   haml-rails
   hpricot
