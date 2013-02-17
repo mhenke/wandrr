@@ -17,6 +17,8 @@ gem 'jquery-rails'
 gem 'omniauth-twitter', :github => 'arunagw/omniauth-twitter'
 gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
 gem 'figaro', :github => 'laserlemon/figaro'
+gem "prawn", "~> 0.12.0"
+gem "prawnto", "~> 0.1.1"
 
 ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.2'
 

@@ -35,6 +35,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    Ascii85 (1.0.2)
     actionmailer (3.2.11)
       actionpack (= 3.2.11)
       mail (~> 2.4.4)
@@ -66,7 +67,9 @@ GEM
     activesupport (3.2.11)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    afm (0.2.0)
     arel (3.0.2)
+    bcrypt-ruby (3.0.1)
     bcrypt-ruby (3.0.1-java)
     better_errors (0.6.0)
       coderay (>= 1.0.0)
@@ -92,8 +95,10 @@ GEM
       activesupport (>= 3.1, < 4.1)
       haml (>= 3.1, < 4.1)
       railties (>= 3.1, < 4.1)
+    hashery (2.1.0)
     hashie (1.2.0)
     hike (1.2.1)
+    hpricot (0.8.6)
     hpricot (0.8.6-java)
     i18n (0.6.1)
     jdbc-postgres (9.2.1002.1)
@@ -104,6 +109,7 @@ GEM
     jruby-openssl (0.8.2)
       bouncy-castle-java (>= 1.5.0146.1)
     jruby-rack (1.1.13.1)
+    json (1.7.7)
     json (1.7.7-java)
     less (2.2.2)
       commonjs (~> 0.2.6)
@@ -124,9 +130,21 @@ GEM
       oauth
       omniauth (~> 1.0)
     orm_adapter (0.4.0)
+    pdf-reader (1.3.1)
+      Ascii85 (~> 1.0.0)
+      afm (~> 0.2.0)
+      hashery (~> 2.0)
+      ruby-rc4
+      ttfunk
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
+    prawn (0.12.0)
+      pdf-reader (>= 0.9.0)
+      ttfunk (~> 1.0.2)
+    prawnto (0.1.1)
+      prawn
+      rails (>= 2.1)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -152,6 +170,7 @@ GEM
     rake (10.0.3)
     rdoc (3.12.1)
       json (~> 1.4)
+    ruby-rc4 (0.1.5)
     ruby_parser (3.1.1)
       sexp_processor (~> 4.1)
     sass (3.2.5)
@@ -177,6 +196,7 @@ GEM
       jruby-rack (>= 1.1.10)
       trinidad_jars (>= 1.1.0)
     trinidad_jars (1.2.0)
+    ttfunk (1.0.3)
     twitter-bootstrap-rails (2.2.4)
       actionpack (>= 3.1)
       execjs
@@ -204,6 +224,8 @@ DEPENDENCIES
   jruby-openssl
   less-rails
   omniauth-twitter!
+  prawn (~> 0.12.0)
+  prawnto (~> 0.1.1)
   rails (= 3.2.11)
   ransack!
   ruby_parser
