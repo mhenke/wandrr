@@ -71,9 +71,9 @@ class TripsController < ApplicationController
   # PUT /trips/1.json
   def update
     @trip = Trip.find(params[:id])
-
     respond_to do |format|
       if @trip.update_attributes(params[:trip])
+        @trips = Trip.all
         format.html { redirect_to @trip, notice: 'Trip was successfully updated.' }
         format.json { head :no_content }
         format.js
