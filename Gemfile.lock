@@ -221,6 +221,7 @@ DEPENDENCIES
   devise!
   exception_notification
   figaro!
+  haml
   haml-rails
   hpricot
   jquery-rails
