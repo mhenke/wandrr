@@ -14,7 +14,8 @@ gem "ransack", :git => "git://github.com/ernie/ransack.git" # Track git repo
 gem 'jquery-rails'
 gem 'omniauth-twitter', :github => 'arunagw/omniauth-twitter'
 gem "prawn", "~> 0.12.0"
-gem 'haml' # you probably have already done this
+# gem 'haml' # you probably have already done this
+gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
 
 ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.2'
 
@@ -25,7 +26,7 @@ group :development do
   gem 'hpricot'
   gem 'better_errors'
   gem 'figaro', :github => 'laserlemon/figaro'
-  gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
+  # gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
   # gem 'binding_of_caller'
 end
 
