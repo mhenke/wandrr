@@ -67,9 +67,9 @@ GEM
     activesupport (3.2.11)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    addressable (2.3.2)
     afm (0.2.0)
     arel (3.0.2)
-    bcrypt-ruby (3.0.1)
     bcrypt-ruby (3.0.1-java)
     better_errors (0.6.0)
       coderay (>= 1.0.0)
@@ -86,6 +86,8 @@ GEM
     coffee-script-source (1.4.0)
     commonjs (0.2.6)
     erubis (2.7.0)
+    exception_notification (3.0.1)
+      actionmailer (>= 3.0.4)
     execjs (1.4.0)
       multi_json (~> 1.0)
     haml (4.0.0)
@@ -98,7 +100,6 @@ GEM
     hashery (2.1.0)
     hashie (1.2.0)
     hike (1.2.1)
-    hpricot (0.8.6)
     hpricot (0.8.6-java)
     i18n (0.6.1)
     jdbc-postgres (9.2.1002.1)
@@ -109,13 +110,17 @@ GEM
     jruby-openssl (0.8.2)
       bouncy-castle-java (>= 1.5.0146.1)
     jruby-rack (1.1.13.1)
-    json (1.7.7)
     json (1.7.7-java)
+    launchy (2.2.0-java)
+      addressable (~> 2.3)
+      spoon (~> 0.0.1)
     less (2.2.2)
       commonjs (~> 0.2.6)
     less-rails (2.2.6)
       actionpack (>= 3.1)
       less (~> 2.2.0)
+    letter_opener (1.1.0)
+      launchy (~> 2.2.0)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -142,9 +147,6 @@ GEM
     prawn (0.12.0)
       pdf-reader (>= 0.9.0)
       ttfunk (~> 1.0.2)
-    prawnto (0.1.1)
-      prawn
-      rails (>= 2.1)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -179,6 +181,7 @@ GEM
       sass (>= 3.1.10)
       tilt (~> 1.3)
     sexp_processor (4.1.5)
+    spoon (0.0.1)
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -216,6 +219,7 @@ DEPENDENCIES
   better_errors
   coffee-rails (~> 3.2.1)
   devise!
+  exception_notification
   figaro!
   haml
   haml-rails
@@ -223,9 +227,9 @@ DEPENDENCIES
   jquery-rails
   jruby-openssl
   less-rails
+  letter_opener
   omniauth-twitter!
   prawn (~> 0.12.0)
-  prawnto (~> 0.1.1)
   rails (= 3.2.11)
   ransack!
   ruby_parser

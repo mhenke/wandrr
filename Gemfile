@@ -6,28 +6,26 @@ gem 'rails', '3.2.11'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'activerecord-jdbcpostgresql-adapter'
-gem 'haml' # you probably have already done this
+
 gem 'jruby-openssl'
 gem 'trinidad'
 gem 'devise', :github => 'plataformatec/devise' 
-gem 'twitter-bootstrap-rails'
-gem 'less-rails'
 gem "ransack", :git => "git://github.com/ernie/ransack.git" # Track git repo
 gem 'jquery-rails'
 gem 'omniauth-twitter', :github => 'arunagw/omniauth-twitter'
-gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
-gem 'figaro', :github => 'laserlemon/figaro'
 gem "prawn", "~> 0.12.0"
-gem "prawnto", "~> 0.1.1"
+gem 'haml' # you probably have already done this
 
 ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.2'
 
 #./Gemfile
 group :development do
   gem 'ruby_parser'
-  
+  gem 'letter_opener'
   gem 'hpricot'
   gem 'better_errors'
+  gem 'figaro', :github => 'laserlemon/figaro'
+  gem 'haml-rails' # you'll want this so all subsequent views are generated using Haml
   # gem 'binding_of_caller'
 end
 
@@ -39,6 +37,8 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyrhino'
   gem 'uglifier', '>= 1.0.3'
+  gem 'twitter-bootstrap-rails'
+  gem 'less-rails'
 end
 
 # To use ActiveModel has_secure_password
@@ -55,3 +55,5 @@ end
 
 # To use debugger
 # gem 'debugger'
+
+gem 'exception_notification'
