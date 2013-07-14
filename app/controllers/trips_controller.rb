@@ -22,6 +22,13 @@ class TripsController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @trip }
+      format.pdf do
+        pdf = Prawn::Document.new
+        pdf.text "Hello World"
+        send_data pdf.render, filename: "trip_#{@trip.id}",
+                              type: "application/pdf",
+                              disposition: 'inline'
+      end
     end
   end
 

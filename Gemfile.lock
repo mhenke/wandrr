@@ -32,6 +32,17 @@ GIT
       railties (~> 3.1)
       warden (~> 1.2.1)
 
+GIT
+  remote: git://github.com/prawnpdf/prawn
+  revision: 68b44e30760806828b296bfcb3abb213cbfab17e
+  branch: master
+  specs:
+    prawn (1.0.0.rc1)
+      afm
+      pdf-reader (>= 0.9.0, < 2.0)
+      ruby-rc4
+      ttfunk (~> 1.0.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -70,6 +81,7 @@ GEM
     addressable (2.3.2)
     afm (0.2.0)
     arel (3.0.2)
+    bcrypt-ruby (3.0.1)
     bcrypt-ruby (3.0.1-java)
     better_errors (0.6.0)
       coderay (>= 1.0.0)
@@ -100,6 +112,7 @@ GEM
     hashery (2.1.0)
     hashie (1.2.0)
     hike (1.2.1)
+    hpricot (0.8.6)
     hpricot (0.8.6-java)
     i18n (0.6.1)
     jdbc-postgres (9.2.1002.1)
@@ -110,7 +123,10 @@ GEM
     jruby-openssl (0.8.2)
       bouncy-castle-java (>= 1.5.0146.1)
     jruby-rack (1.1.13.1)
+    json (1.7.7)
     json (1.7.7-java)
+    launchy (2.2.0)
+      addressable (~> 2.3)
     launchy (2.2.0-java)
       addressable (~> 2.3)
       spoon (~> 0.0.1)
@@ -144,9 +160,6 @@ GEM
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
-    prawn (0.12.0)
-      pdf-reader (>= 0.9.0)
-      ttfunk (~> 1.0.2)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -229,7 +242,7 @@ DEPENDENCIES
   less-rails
   letter_opener
   omniauth-twitter!
-  prawn (~> 0.12.0)
+  prawn!
   rails (= 3.2.11)
   ransack!
   ruby_parser
